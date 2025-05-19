@@ -8,9 +8,9 @@ KPI (Key Performance Indicator)
  
 --(Total_Revenue)--
  
-'''select  
+---select  
 	  cast(sum(total_price) as numeric(10,2)) as Total_Revenue 
-	  from pizza_table'''
+	  from pizza_table ---
 
 
 
